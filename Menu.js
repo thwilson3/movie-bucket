@@ -1,6 +1,6 @@
 
 /**
- * Hamburger menu
+ * App -> Menu -> Bucket
  */
 export default function Menu(){
 

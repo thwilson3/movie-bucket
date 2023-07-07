@@ -1,8 +1,18 @@
 import { Text, View } from "react-native"
+import RollButton from "./RollButton";
+import Selection from "./Selection";
+
+/**
+ *
+ * App -> Home -> RollButton, Selection
+ */
 
 export default function Home(){
 
   return(
-    <Text>Hello world</Text>
+    <View>
+      <Selection />
+      <RollButton />
+    </View>
   )
 }
